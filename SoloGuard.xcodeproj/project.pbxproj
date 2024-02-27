@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2006B6C2B82D58900EFA0D3 /* GS.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C2006B6B2B82D58800EFA0D3 /* GS.mp3 */; };
+		C2006B6E2B82DC5300EFA0D3 /* YOASOBI.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C2006B6D2B82DC5300EFA0D3 /* YOASOBI.mp3 */; };
+		C2006B702B82E0B100EFA0D3 /* cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C2006B6F2B82E0B100EFA0D3 /* cat.mp3 */; };
+		C2006B722B82E0BD00EFA0D3 /* phone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C2006B712B82E0BD00EFA0D3 /* phone.mp3 */; };
 		C29B95E92B5739B6009B300A /* SoloGuardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29B95E82B5739B6009B300A /* SoloGuardApp.swift */; };
 		C29B95EB2B5739B6009B300A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29B95EA2B5739B6009B300A /* ContentView.swift */; };
 		C29B95ED2B5739BA009B300A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C29B95EC2B5739BA009B300A /* Assets.xcassets */; };
@@ -14,6 +18,15 @@
 		C29B95FB2B5739BB009B300A /* SoloGuardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29B95FA2B5739BB009B300A /* SoloGuardTests.swift */; };
 		C29B96052B5739BB009B300A /* SoloGuardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29B96042B5739BB009B300A /* SoloGuardUITests.swift */; };
 		C29B96072B5739BB009B300A /* SoloGuardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29B96062B5739BB009B300A /* SoloGuardUITestsLaunchTests.swift */; };
+		C29BE8AA2B5C502600F48D88 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29BE8A92B5C502600F48D88 /* LoginView.swift */; };
+		C29BE8AC2B5C584800F48D88 /* CreateNewAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29BE8AB2B5C584800F48D88 /* CreateNewAccount.swift */; };
+		C29BE8AE2B5C62F200F48D88 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29BE8AD2B5C62F200F48D88 /* MapController.swift */; };
+		C2D81C012B6EF5CD00061DCD /* MapExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D81C002B6EF5CD00061DCD /* MapExtensions.swift */; };
+		C2D81C032B6EF60200061DCD /* LocationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D81C022B6EF60200061DCD /* LocationExtensions.swift */; };
+		C2D81C052B6EFC9300061DCD /* MapPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D81C042B6EFC9300061DCD /* MapPreview.swift */; };
+		C2D81C072B718AEC00061DCD /* MapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D81C062B718AEC00061DCD /* MapTest.swift */; };
+		C2D81C102B7ACD1400061DCD /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D81C0E2B7ACD0D00061DCD /* AudioPlayer.swift */; };
+		C2D81C142B7AE44300061DCD /* AudioFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D81C132B7AE44300061DCD /* AudioFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C2006B6B2B82D58800EFA0D3 /* GS.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GS.mp3; sourceTree = "<group>"; };
+		C2006B6D2B82DC5300EFA0D3 /* YOASOBI.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = YOASOBI.mp3; sourceTree = "<group>"; };
+		C2006B6F2B82E0B100EFA0D3 /* cat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cat.mp3; sourceTree = "<group>"; };
+		C2006B712B82E0BD00EFA0D3 /* phone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = phone.mp3; sourceTree = "<group>"; };
 		C29B95E52B5739B6009B300A /* SoloGuard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoloGuard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29B95E82B5739B6009B300A /* SoloGuardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloGuardApp.swift; sourceTree = "<group>"; };
 		C29B95EA2B5739B6009B300A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +62,16 @@
 		C29B96002B5739BB009B300A /* SoloGuardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoloGuardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29B96042B5739BB009B300A /* SoloGuardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloGuardUITests.swift; sourceTree = "<group>"; };
 		C29B96062B5739BB009B300A /* SoloGuardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloGuardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C29BE8A92B5C502600F48D88 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C29BE8AB2B5C584800F48D88 /* CreateNewAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewAccount.swift; sourceTree = "<group>"; };
+		C29BE8AD2B5C62F200F48D88 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		C2D81BFF2B6EECA100061DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C2D81C002B6EF5CD00061DCD /* MapExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapExtensions.swift; sourceTree = "<group>"; };
+		C2D81C022B6EF60200061DCD /* LocationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationExtensions.swift; sourceTree = "<group>"; };
+		C2D81C042B6EFC9300061DCD /* MapPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPreview.swift; sourceTree = "<group>"; };
+		C2D81C062B718AEC00061DCD /* MapTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTest.swift; sourceTree = "<group>"; };
+		C2D81C0E2B7ACD0D00061DCD /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		C2D81C132B7AE44300061DCD /* AudioFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +122,22 @@
 		C29B95E72B5739B6009B300A /* SoloGuard */ = {
 			isa = PBXGroup;
 			children = (
+				C2D81BFF2B6EECA100061DCD /* Info.plist */,
 				C29B95E82B5739B6009B300A /* SoloGuardApp.swift */,
 				C29B95EA2B5739B6009B300A /* ContentView.swift */,
+				C29BE8A92B5C502600F48D88 /* LoginView.swift */,
+				C29BE8AB2B5C584800F48D88 /* CreateNewAccount.swift */,
+				C29BE8AD2B5C62F200F48D88 /* MapController.swift */,
+				C2D81C042B6EFC9300061DCD /* MapPreview.swift */,
+				C2D81C002B6EF5CD00061DCD /* MapExtensions.swift */,
+				C2D81C022B6EF60200061DCD /* LocationExtensions.swift */,
+				C2D81C062B718AEC00061DCD /* MapTest.swift */,
+				C2D81C132B7AE44300061DCD /* AudioFunction.swift */,
+				C2D81C0E2B7ACD0D00061DCD /* AudioPlayer.swift */,
+				C2006B6F2B82E0B100EFA0D3 /* cat.mp3 */,
+				C2006B712B82E0BD00EFA0D3 /* phone.mp3 */,
+				C2006B6B2B82D58800EFA0D3 /* GS.mp3 */,
+				C2006B6D2B82DC5300EFA0D3 /* YOASOBI.mp3 */,
 				C29B95EC2B5739BA009B300A /* Assets.xcassets */,
 				C29B95EE2B5739BA009B300A /* SoloGuard.entitlements */,
 				C29B95EF2B5739BA009B300A /* Preview Content */,
@@ -233,8 +274,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2006B702B82E0B100EFA0D3 /* cat.mp3 in Resources */,
 				C29B95F12B5739BA009B300A /* Preview Assets.xcassets in Resources */,
+				C2006B6C2B82D58900EFA0D3 /* GS.mp3 in Resources */,
 				C29B95ED2B5739BA009B300A /* Assets.xcassets in Resources */,
+				C2006B6E2B82DC5300EFA0D3 /* YOASOBI.mp3 in Resources */,
+				C2006B722B82E0BD00EFA0D3 /* phone.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +304,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2D81C072B718AEC00061DCD /* MapTest.swift in Sources */,
+				C2D81C142B7AE44300061DCD /* AudioFunction.swift in Sources */,
+				C2D81C102B7ACD1400061DCD /* AudioPlayer.swift in Sources */,
+				C29BE8AC2B5C584800F48D88 /* CreateNewAccount.swift in Sources */,
+				C2D81C032B6EF60200061DCD /* LocationExtensions.swift in Sources */,
+				C29BE8AA2B5C502600F48D88 /* LoginView.swift in Sources */,
+				C2D81C052B6EFC9300061DCD /* MapPreview.swift in Sources */,
+				C2D81C012B6EF5CD00061DCD /* MapExtensions.swift in Sources */,
+				C29BE8AE2B5C62F200F48D88 /* MapController.swift in Sources */,
 				C29B95EB2B5739B6009B300A /* ContentView.swift in Sources */,
 				C29B95E92B5739B6009B300A /* SoloGuardApp.swift in Sources */,
 			);
@@ -422,6 +476,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SoloGuard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SoloGuard/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -458,6 +513,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SoloGuard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SoloGuard/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
